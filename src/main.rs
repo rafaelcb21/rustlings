@@ -123,7 +123,6 @@ struct ListArgs {
 
 fn main() {
     let args: Args = argh::from_env();
-
     if args.version {
         println!("v{VERSION}");
         std::process::exit(0);
